@@ -28,7 +28,6 @@ export const PostDetailScreen: React.FunctionComponent<PostDetailScreenProps> = 
 
 
     React.useEffect(() => {
-        console.tron.log('postStore', postStore.postDetails);
     }, [])
 
 
